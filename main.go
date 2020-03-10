@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello World 粗发, Kubernetes！I'm from Jenkins CI！")
+	fmt.Println("Hello World 发, Kubernetes！I'm from Jenkins CI！")
 	time.Sleep(time.Second*10000)
 	fmt.Println("BRANCH_NAME:", os.Getenv("branch"))
 }
